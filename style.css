@@ -10,8 +10,17 @@ h1{
     line-height: 5rem;
 }
 .choice{
-    height: 170px;
-    width: 170px;
+    height: 160px;
+    width: 160px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.choice:hover{
+    background-color: #a00505;
+    cursor: pointer;
+
 }
 img{
     height: 150px;
@@ -22,4 +31,31 @@ img{
 .choices{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 3rem;
+    gap: 5rem;
+}
+#user-score, 
+#com-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
 }
